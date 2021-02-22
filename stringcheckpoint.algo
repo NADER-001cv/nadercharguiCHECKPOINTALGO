@@ -1,0 +1,19 @@
+ALGORITHM 
+VAR
+   ch :string ;
+   const 'a', 'e','i','o','u';
+
+BEGIN
+  count = 0;
+  write("give us the statment") ;
+  read(ch);
+  for(i=0 ; i< ch.length;i=i+1)  
+     for(j=i;j<ch.length;j=j+1)
+     if(ch[j] == " ") then
+         count = ch[j]++;
+     else 
+     if(ch[i]<> " ") then
+       ch[i]++ ;
+     if(ch[i] = 'a' || 'e' || 'i' | 'o','u')
+        ch[i]++ ;
+END
